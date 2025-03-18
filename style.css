@@ -1,0 +1,67 @@
+* {
+    margin: 0; /* Resets the default margin for all elements to 0 */
+    padding: 0; /* Resets the default padding for all elements to 0 */
+    font-family: 'Poppins', sans-serif; /* Sets the font family for all elements to 'Poppins', with a fallback to sans-serif */
+    box-sizing: border-box; /* Sets the box-sizing model to border-box, which includes padding and border in the element's total width and height */
+}
+
+.container {
+    width: 100%; /* Sets the width of the container to 100% of its parent element */
+    min-height: 100vh; /* Sets the minimum height of the container to 100% of the viewport height */
+    background: linear-gradient(135deg, #cf9aff, #95c0ff); /* Applies a linear gradient background to the container */
+    color: #fff; /* Sets the text color inside the container to white */
+    padding-top: 4%; /* Adds a top padding of 4% to the container */
+    padding-left: 10%; /* Adds a left padding of 10% to the container */
+}
+
+.container h1 {
+    display: flex; /* Uses flexbox layout for the heading */
+    align-items: center; /* Vertically centers the items in the flex container */
+    font-size: 35px; /* Sets the font size of the heading to 35 pixels */
+    font-weight: 600; /* Sets the font weight of the heading to 600 (semi-bold) */
+}
+
+.container h1 img {
+    width: 60px; /* Sets the width of the image inside the heading to 60 pixels */
+}
+
+.container button img {
+    width: 25px; /* Sets the width of the image inside the button to 25 pixels */
+    margin-right: 8px; /* Adds a right margin of 8 pixels to the image inside the button */
+}
+
+.container button {
+    display: flex; /* Uses flexbox layout for the button */
+    align-items: center; /* Vertically centers the items in the button */
+    background: linear-gradient(#9418fd, #571094); /* Applies a linear gradient background to the button */
+    color: #fff; /* Sets the text color of the button to white */
+    font-size: 16px; /* Sets the font size of the button text to 16 pixels */
+    outline: 0; /* Removes the default outline of the button */
+    border: 0; /* Removes the default border of the button */
+    border-radius: 40px; /* Rounds the corners of the button with a radius of 40 pixels */
+    padding: 15px 25px; /* Adds padding of 15 pixels top and bottom, and 25 pixels left and right to the button */
+    margin: 30px 0 20px; /* Adds a margin of 30 pixels on top, 0 on the sides, and 20 pixels at the bottom of the button */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+}
+
+.input-box {
+    position: relative; /* Sets the position of the input box to relative for positioning child elements */
+    width: 100%; /* Sets the width of the input box to 100% of its parent element */
+    max-width: 500px; /* Sets the maximum width of the input box to 500 pixels */
+    min-width: 150px; /* Sets the minimum width of the input box to 150 pixels */
+    background: #fff; /* Sets the background color of the input box to white */
+    color: #333; /* Sets the text color inside the input box to a dark gray */
+    padding: 20px; /* Adds padding of 20 pixels inside the input box */
+    margin: 20px 0; /* Adds a margin of 20 pixels on top and bottom, and 0 on the sides of the input box */
+    outline: none; /* Removes the default outline of the input box */
+    border-radius: 5px; /* Rounds the corners of the input box with a radius of 5 pixels */
+    height: 150px; /* Sets the height of the input box to 150 pixels */
+}
+
+.input-box img {
+    width: 25px; /* Sets the width of the image inside the input box to 25 pixels */
+    position: absolute; /* Positions the image absolutely within the input box */
+    bottom: 15px; /* Positions the image 15 pixels from the bottom of the input box */
+    right: 15px; /* Positions the image 15 pixels from the right of the input box */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the image */
+}
